@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
 
                 final Task task = (Task) parent.getAdapter().getItem(position);
 
-                // ダイアログを表示する
+
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
 
                 builder.setTitle("削除");
